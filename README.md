@@ -1,6 +1,6 @@
 # Relative-Distance  
   
-| Postion |   prev    |        now      |  
+|         |   prev    |       now       |  
 | ------- |:---------:|:---------------:|  
 |Camera   |   0,0,0   |    xca,yca,zca  |  
 |P(g)     |   x,y,z   |       x,y,z     |  
