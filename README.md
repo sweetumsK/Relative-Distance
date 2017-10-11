@@ -31,6 +31,8 @@
   
 This time, we have the Camera's postion by using two parameters (z and zca)  
   
+  
+---  
 ---  
 If we have two points, we can use the equation of zca to get the relation between z of two points.  
 ## Situation:  
@@ -38,9 +40,7 @@ There are two points named P and Q.
 >>(XP-Xcen) / f * zP - (XP'-Xcen) / f * (zP-zca) = (XQ-Xcen) / f * zQ - (XQ'-Xcen) / f * (zQ-zca)  
 >>(YP-Ycen) / f * zP - (YP'-Ycen) / f * (zP-zca) = (YQ-Ycen) / f * zQ - (YQ'-Ycen) / f * (zQ-zca)  
 
-  ### Set:  
-  >g(A*) = (A* - Acen) / f  
-  
+  ### Set: g(A*) = (A* - Acen) / f  
   
   g(XP) * zP - g(XP') * (zP-zca) = g(XQ) * zQ - g(XQ') * (zQ-zca)  
   g(YP) * zP - g(YP') * (zP-zca) = g(YQ) * zQ - g(YQ') * (zQ-zca)  
