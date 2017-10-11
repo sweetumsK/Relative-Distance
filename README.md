@@ -1,8 +1,10 @@
-# Relative-Distance
-           prev            now  
-Camera     0,0,0       xca,yca,zca  
-P|g        x,y,z          x,y,z  
-P|i         X,Y           X',Y'  
+# Relative-Distance  
+  
+| Postion |   prev    |        now      |  
+| ------- |:---------:| ---------------:|  
+|Camera   |   0,0,0   |    xca,yca,zca  |  
+|P|g      |   x,y,z   |       x,y,z     |  
+|P|i      |    X,Y    |       X',Y'     |  
   
 ## Rules:  
 1. "g" means "global".  
