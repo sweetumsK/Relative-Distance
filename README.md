@@ -20,17 +20,18 @@
 2. P(g) is fixed  
   
 ## Solution:  
->>x / z = (X-Xcen) / f -> x = (X-Xcen) / f * z  
->>y / z = (Y-Ycen) / f -> y = (Y-Ycen) / f * z  
+  x / z = (X-Xcen) / f -> x = (X-Xcen) / f * z  
+  y / z = (Y-Ycen) / f -> y = (Y-Ycen) / f * z  
+    
+  (x-xca) / (z-zca) = (X'-Xcen) / f -> x - xca = (X'-Xcen) / f * (z-zca)  
+  >>`xca = x - (X'-Xcen) / f * (z-zca) = (X-Xcen) / f * z - (X'-Xcen) / f * (z-zca)`  
+    
+  (y-yca) / (z-zca) = (Y'-Ycen) / f -> y - yca = (Y'-Ycen) / f * (z-zca)  
+  >>`yca = y - (Y'-Ycen) / f * (z-zca) = (Y-Ycen) / f * z - (Y'-Ycen) / f * (z-zca)`  
   
->>(x-xca) / (z-zca) = (X'-Xcen) / f -> x - xca = (X'-Xcen) / f * (z-zca)  
->>>>`xca = x - (X'-Xcen) / f * (z-zca) = (X-Xcen) / f * z - (X'-Xcen) / f * (z-zca)`  
+This time, we have the Camera's postion by using two parameters (z and zca)  
   
->>(y-yca) / (z-zca) = (Y'-Ycen) / f -> y - yca = (Y'-Ycen) / f * (z-zca)  
->>>>`yca = y - (Y'-Ycen) / f * (z-zca) = (Y-Ycen) / f * z - (Y'-Ycen) / f * (z-zca)`  
-  
-This time, we have the Camera's postion by using two parameters (z and zca)  
-  
+---  
 If we have two points, we can use the equation of zca to get the relation between z of two points.  
 ## Situation:  
 There are two points named P and Q.  
